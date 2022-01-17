@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reto 9</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="/main.js" async></script>
+</head>
+<body>
+    <div class="container">
+
+        <form id="formulario">
+            <label for="nombre" class="mb-1">Nombre:</label>
+            <input id="nombre" type="text" name="nombre" class="mb-1"/>
+            <label for="select" class="mb-1">De lo aprendido hasta ahora ¿Que es lo que te gustó más?</label>
+            <select id"select" class="mb-1">
+                <option value="">Selecionar uno...</option>
+                <option value="clases">Classes</option>
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+            </select>
+
+            <div class="radio mb-1">
+                <p class="mb-1">Preferis estudiar</p>
+                    <input type="radio" name="preferencia" id="dia" value="dia">
+                    <label for="dia">Dia</label>
+                    <input type="radio" name="preferencia" id="noche" value="noche">
+                    <label for="noche">Noche</label>
+            </div>
+
+            <label for="complejo" class="mb-1">Cual fue el tema mas complejo</label>
+            <div class="check-list">
+                <div>
+                    <input type="checkbox" name="complejo" id="typescript" value="typescript">
+                    <label style="display: inline;" for="typescript">Typescript</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" name="complejo" id="promesas" value="promesas">
+                    <label style="display: inline;" for="promesas">Promesas</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" name="complejo" id="funciones" value="funciones">
+                    <label style="display: inline;" for="funciones">Funciones</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" name="complejo" id="clases" value="clases">
+                    <label style="display: inline;" for="clases">clases</label>
+
+                </div>
+
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <!-- <div class="cuadro"> </div> -->
+
+    </div>
+</body>
+</html>
